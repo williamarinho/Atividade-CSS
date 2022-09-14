@@ -1,0 +1,25 @@
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    animation: pulsar 5s linear infinite ;
+    }
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35vh;
+}
+@keyframes pulsar{
+    0%{
+        transform: rotate(0);
+        background-color: darkblue;
+    }
+    50%{
+        background-color: darkred;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: darkseagreen;
+    }
+}

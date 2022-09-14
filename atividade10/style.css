@@ -1,0 +1,26 @@
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    animation-name: tamanho;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35vh;
+}
+@keyframes tamanho {
+    from{
+        width: 200px;
+        height: 200px;
+        transform: translateY(0);
+    }
+    to{
+        width: 70px;
+        height: 70px;
+        transform: translateX(-700px)
+    }
+}

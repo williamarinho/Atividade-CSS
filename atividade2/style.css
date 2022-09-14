@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35vh;
+}
+.box:hover{
+    background-color: darkslategrey;
+}

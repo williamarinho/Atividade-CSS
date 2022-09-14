@@ -1,0 +1,20 @@
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition-delay: 1s;
+    background-color: black;
+    transition: all 3s ease;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35vh;
+}
+.circulo:hover{
+    width: 250px;
+    height: 250px;
+    background-color: darksalmon;
+    transition: 3s;
+}

@@ -1,0 +1,22 @@
+.circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    animation: mover linear 4s;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35vh;
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(500px);
+    }
+}

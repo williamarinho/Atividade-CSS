@@ -1,0 +1,54 @@
+.container{
+    padding: 80px;
+    background: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    animation: cair 2s linear;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+    background: #000;
+}
+input{
+    padding: 15px;
+    font-size: 15px;
+    animation: inp 3s linear;
+}
+#b1{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+#b2{
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 50%;
+    border: none;
+}
+#b1:hover{
+    background-color: white;
+    color: black;
+}
+#b2:hover{
+    border: 1px solid gray;
+    background-color: silver;
+}
+@keyframes cair{
+    0%{
+        transform: translateY(-300%);
+    }
+    100%{
+        transform: translate(-50%px);
+    }
+}

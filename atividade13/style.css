@@ -1,0 +1,60 @@
+.q1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: subir1 2s linear;
+}
+.q2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: subir2 2s linear;
+    animation-delay: 3s;
+}
+.q3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    animation: subir3 2s linear;
+    animation-delay: 6s;
+}
+body{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35vh;
+}
+@keyframes subir1{
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+@keyframes subir2{
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+@keyframes subir3{
+    0%{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}

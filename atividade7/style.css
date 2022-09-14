@@ -1,0 +1,29 @@
+.quadrado{
+    /*width: 200px;
+    height: 200px;*/
+    background-color: black;
+    animation: aparecer 5s linear;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35vh;
+}
+@keyframes aparecer {
+    0% {
+      width: 0px;
+      height: 0px;
+      background-color: black;
+    }
+    50% {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+    100% {
+        width: 200px;
+        height: 200px;;
+      background-color: greenyellow;
+    }
+  }
